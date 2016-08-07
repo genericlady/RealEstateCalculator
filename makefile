@@ -10,12 +10,12 @@ MAINSRC = src/main/org/
 TESTSRC = src/test/org/
 LIB = 'src/test/lib/*:src/main/org'
 
-PKGSRC = RealEstateCalculator/
+PKGSRC = realestatecalculator/
 TARGET = bin
 
 MAIN = RealEstateCalculator.Main
 
-MAINTEST = RealEstateCalculator.MainTest
+MAINTEST = RealEstateCalculatorTest.class
 
 .SUFFIXES : .class .java
 
