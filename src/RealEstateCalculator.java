@@ -1,0 +1,6 @@
+class RealEstateCalculator {
+  public RealEstateCalculator() {
+
+  }
+
+}
