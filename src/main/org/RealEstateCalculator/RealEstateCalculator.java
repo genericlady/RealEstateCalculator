@@ -1,4 +1,4 @@
-package main.org.RealEstateCalculator.RealEstateCalculator;
+package main.org.RealEstateCalculator;
 
 class RealEstateCalculator {
   public RealEstateCalculator() {
