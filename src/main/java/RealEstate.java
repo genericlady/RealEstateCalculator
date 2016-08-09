@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class RealEstate {
+class RealEstate {
   private BigDecimal landValue = new BigDecimal(0);
   private BigDecimal improvementValue = new BigDecimal(0);
   private String stateName;
