@@ -8,4 +8,5 @@ public class RealEstateCalculatorTest {
   @Before public void setup() {
     RealEstateCalculator realEstateCalculator = new RealEstateCalculator();
   }
+
 }
