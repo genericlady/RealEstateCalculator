@@ -1,6 +1,8 @@
+import java.math.BigDecimal;
+
 public abstract class Territory {
   private String name;
-  double taxRatePercentage = 0;
+  private double taxRatePercentage = 0;
 
   Territory(String name, double taxRatePercentage) {
     this.name = name;
@@ -14,22 +16,21 @@ public abstract class Territory {
   public double getTaxRatePercentage() {
     return taxRatePercentage;
   }
-
 }
 
-public class County extends Territory {
+class County extends Territory {
   County(String name, double taxRatePercentage) {
     super(name, taxRatePercentage);
   }
 }
 
-public class City extends Territory {
+class City extends Territory {
   City(String name, double taxRatePercentage) {
     super(name, taxRatePercentage);
   }
 }
 
-public class SchoolDistrict extends Territory {
+class SchoolDistrict extends Territory {
   SchoolDistrict(String name, double taxRatePercentage) {
     super(name, taxRatePercentage);
   }
